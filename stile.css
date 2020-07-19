@@ -54,12 +54,51 @@ div:hover {
   }
 }
 
+@keyframes yel1anim {
+  0% {
+    background-color: green;
+    transform: rotate(360deg);
+  }
+  85% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+@keyframes yel2anim {
+  0% {
+    background-color: green;
+    transform: rotate(180deg);
+  }
+  85% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+@keyframes yel3anim {
+  0% {
+    background-color: red;
+    transform: rotate(90deg);
+  }
+  85% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
 #red1 {
   left: 100px;
   top: 100px;
   background-color: red;
   animation-name: red1anim;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-timing-function: linear;
 }
 
@@ -68,7 +107,7 @@ div:hover {
   top: 100px;
   background-color: red;
   animation-name: red2anim;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-timing-function: linear;
 }
 
@@ -77,26 +116,35 @@ div:hover {
   top: 100px;
   background-color: red;
   animation-name: red3anim;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-timing-function: linear;
 }
 
 #yellow1 {
   left: 100px;
   top: 204px;
-  background-color: green;
+  background-color: yellow;
+  animation-name: yel1anim;
+  animation-duration: 5s;
+  animation-timing-function: linear;
 }
 
 #yellow2 {
   left: 204px;
   top: 204px;
-  background-color: green;
+  background-color: yellow;
+  animation-name: yel2anim;
+  animation-duration: 5s;
+  animation-timing-function: linear;
 }
 
 #yellow3 {
   left: 308px;
   top: 204px;
-  background-color: red;
+  background-color: yellow;
+  animation-name: yel3anim;
+  animation-duration: 5s;
+  animation-timing-function: linear;
 }
 
 #blue1 {
