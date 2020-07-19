@@ -7,10 +7,33 @@ div {
   border-radius: 10%;
 }
 
+div:hover {
+  transform: rotate(90deg);
+  transition-property: transform;
+  transition-duration: 1s, 1s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+
+/*@keyframes red1anim {
+  0% {
+    background-color: darkblue;
+  }
+  30% {
+    background-color: rgba(255, 0, 0, 0.432);
+  }
+  100% {
+    background-color: rgba(255, 0, 0, 0.432);
+  }
+}*/
+
 #red1 {
   left: 100px;
   top: 100px;
   background-color: darkblue;
+  animation-name: red1anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
 }
 
 #red2 {
