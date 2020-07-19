@@ -15,71 +15,72 @@ div:hover {
   transition-delay: 0s;
 }
 
-/*@keyframes red1anim {
+@keyframes red1anim {
   0% {
     background-color: darkblue;
+    transform: rotate(180deg);
   }
-  30% {
-    background-color: rgba(255, 0, 0, 0.432);
+  70% {
+    background-color: red;
   }
   100% {
-    background-color: rgba(255, 0, 0, 0.432);
+    background-color: red;
   }
-}*/
+}
 
 #red1 {
   left: 100px;
   top: 100px;
-  background-color: darkblue;
+  background-color: red;
   animation-name: red1anim;
-  animation-duration: 10s;
+  animation-duration: 3s;
   animation-timing-function: linear;
 }
 
 #red2 {
-  left: 200px;
+  left: 204px;
   top: 100px;
   background-color: green;
 }
 
 #red3 {
-  left: 300px;
+  left: 308px;
   top: 100px;
   background-color: yellow;
 }
 
 #yellow1 {
   left: 100px;
-  top: 200px;
+  top: 204px;
   background-color: green;
 }
 
 #yellow2 {
-  left: 200px;
-  top: 200px;
+  left: 204px;
+  top: 204px;
   background-color: green;
 }
 
 #yellow3 {
-  left: 300px;
-  top: 200px;
+  left: 308px;
+  top: 204px;
   background-color: red;
 }
 
 #blue1 {
   left: 100px;
-  top: 300px;
+  top: 308px;
   background-color: green;
 }
 
 #blue2 {
-  left: 200px;
-  top: 300px;
+  left: 204px;
+  top: 308px;
   background-color: yellow;
 }
 
 #blue3 {
-  left: 300px;
-  top: 300px;
+  left: 308px;
+  top: 308px;
   background-color: red;
 }
