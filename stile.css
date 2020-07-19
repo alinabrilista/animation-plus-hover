@@ -20,7 +20,33 @@ div:hover {
     background-color: darkblue;
     transform: rotate(180deg);
   }
-  70% {
+  85% {
+    background-color: red;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes red2anim {
+  0% {
+    background-color: green;
+    transform: rotate(90deg);
+  }
+  85% {
+    background-color: red;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes red3anim {
+  0% {
+    background-color: yellow;
+    transform: rotate(360deg);
+  }
+  85% {
     background-color: red;
   }
   100% {
@@ -40,13 +66,19 @@ div:hover {
 #red2 {
   left: 204px;
   top: 100px;
-  background-color: green;
+  background-color: red;
+  animation-name: red2anim;
+  animation-duration: 3s;
+  animation-timing-function: linear;
 }
 
 #red3 {
   left: 308px;
   top: 100px;
-  background-color: yellow;
+  background-color: red;
+  animation-name: red3anim;
+  animation-duration: 3s;
+  animation-timing-function: linear;
 }
 
 #yellow1 {
