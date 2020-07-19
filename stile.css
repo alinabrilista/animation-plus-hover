@@ -93,6 +93,45 @@ div:hover {
   }
 }
 
+@keyframes bl1anim {
+  0% {
+    background-color: green;
+    transform: rotate(90deg);
+  }
+  85% {
+    background-color: darkblue;
+  }
+  100% {
+    background-color: darkblue;
+  }
+}
+
+@keyframes bl2anim {
+  0% {
+    background-color: yellow;
+    transform: rotate(180deg);
+  }
+  85% {
+    background-color: darkblue;
+  }
+  100% {
+    background-color: darkblue;
+  }
+}
+
+@keyframes bl3anim {
+  0% {
+    background-color: red;
+    transform: rotate(360deg);
+  }
+  85% {
+    background-color: darkblue;
+  }
+  100% {
+    background-color: darkblue;
+  }
+}
+
 #red1 {
   left: 100px;
   top: 100px;
@@ -150,17 +189,26 @@ div:hover {
 #blue1 {
   left: 100px;
   top: 308px;
-  background-color: green;
+  background-color: darkblue;
+  animation-name: bl1anim;
+  animation-duration: 5s;
+  animation-timing-function: linear;
 }
 
 #blue2 {
   left: 204px;
   top: 308px;
-  background-color: yellow;
+  background-color: darkblue;
+  animation-name: bl2anim;
+  animation-duration: 5s;
+  animation-timing-function: linear;
 }
 
 #blue3 {
   left: 308px;
   top: 308px;
-  background-color: red;
+  background-color: darkblue;
+  animation-name: bl3anim;
+  animation-duration: 5s;
+  animation-timing-function: linear;
 }
