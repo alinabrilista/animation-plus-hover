@@ -1,0 +1,62 @@
+div {
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  background-color: darkorange;
+  border: solid;
+  border-radius: 10%;
+}
+
+#red1 {
+  left: 100px;
+  top: 100px;
+  background-color: darkblue;
+}
+
+#red2 {
+  left: 200px;
+  top: 100px;
+  background-color: green;
+}
+
+#red3 {
+  left: 300px;
+  top: 100px;
+  background-color: yellow;
+}
+
+#yellow1 {
+  left: 100px;
+  top: 200px;
+  background-color: green;
+}
+
+#yellow2 {
+  left: 200px;
+  top: 200px;
+  background-color: green;
+}
+
+#yellow3 {
+  left: 300px;
+  top: 200px;
+  background-color: red;
+}
+
+#blue1 {
+  left: 100px;
+  top: 300px;
+  background-color: green;
+}
+
+#blue2 {
+  left: 200px;
+  top: 300px;
+  background-color: yellow;
+}
+
+#blue3 {
+  left: 300px;
+  top: 300px;
+  background-color: red;
+}
